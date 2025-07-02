@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "らくらく新しいタブ",
+  "name": "Silicon New Tab",
   "version": "1.0.0",
-  "description": "気軽に編集できる新しいタブ拡張",
+  "description": "New tab Ext",
   "chrome_url_overrides": {
     "newtab": "newtab.html"
   },
