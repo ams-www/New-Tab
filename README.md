@@ -21,7 +21,7 @@ A super-easy, customizable Chrome extension that lets you create a cool new tab 
 
 ## Usage
 
-- Click the “＋追加” (Add) button to create a new shortcut.
+- Click the “＋Add” button to create a new shortcut.
 - Enter a name, URL, and the image URL (PNG, JPG, SVG, etc.).
 - To delete a shortcut, click the × button on the tile.
 - If no image URL is set, a default icon will be displayed.
