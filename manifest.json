@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "らくらく新しいタブ",
+  "version": "1.0.0",
+  "description": "気軽に編集できる新しいタブ拡張",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "icons": {
+    "128": "icon128.png"
+  }
+}

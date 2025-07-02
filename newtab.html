@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>New tab</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <form id="searchForm">
+      <img src="bing.svg" class="bing" alt="Bing">
+      <input type="text" id="searchInput" placeholder="search">
+    </form>
+    <div id="linksGrid" class="grid"></div>
+    <button id="addBtn" class="addBtn">＋Add</button>
+  </div>
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal" class="close">&times;</span>
+      <h2>Add Shortcuts</h2>
+      <input type="text" id="newName" placeholder="Site Name">
+      <input type="url" id="newUrl" placeholder="URL">
+      <input type="url" id="newImgUrl" placeholder="Image URL">
+      <button id="saveBtn">Done</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
